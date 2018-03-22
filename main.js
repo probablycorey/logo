@@ -1,5 +1,3 @@
-import p5 from 'https://static.tttiny.com/static/js/p5.js'
-
 let commands = []
 let selectedColor = 'transparent'
 let isPenUp = false
@@ -104,7 +102,7 @@ new p5(sketch => {
     sketch.strokeWeight(2)
     sketch.translate(150, 150)
 
-    if (index >= commands.length) return
+    if (index > commands.length) return
     if (state === 'stop') {
       if (index === 0) {
         sketch.background('white')
