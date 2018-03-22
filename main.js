@@ -1,3 +1,5 @@
+import p5 from 'https://static.tttiny.com/static/js/p5.js'
+
 let commands = []
 let selectedColor = 'transparent'
 let isPenUp = false
