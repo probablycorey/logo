@@ -63,7 +63,7 @@ new p5(sketch => {
   let rew = sketch.createButton('rew')
   let ff = sketch.createButton('ff')
 
-  let state = 'stop'
+  let state = 'play'
 
   play.mouseClicked(() => state = 'play')
   stop.mouseClicked(() => state = 'stop')
@@ -73,7 +73,7 @@ new p5(sketch => {
   })
   fast.mouseClicked(() => {
     state = 'play'
-    sketch.frameRate(20)
+    sketch.frameRate(50)
   })
   slow.mouseClicked(() => {
     state = 'play'
