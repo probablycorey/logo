@@ -56,10 +56,12 @@ new p5(sketch => {
   let play = sketch.createButton('play')
   let stop = sketch.createButton('stop')
   let reset = sketch.createButton('reset')
-  let fast = sketch.createButton('fast')
+  sketch.createButton(' ')
   let slow = sketch.createButton('slow')
-  let ff = sketch.createButton('ff')
+  let fast = sketch.createButton('fast')
+  sketch.createButton(' ')
   let rew = sketch.createButton('rew')
+  let ff = sketch.createButton('ff')
 
   let state = 'stop'
 
